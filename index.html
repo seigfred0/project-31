@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <nav>
-        <div class="container nav__container">
+        <di v class="container nav__container">
             <a href="index.html">EGATOR</a>
             <ul class="nav__menu">
                 <li><a href="index.html">Home</a></li>
@@ -18,9 +24,73 @@
                 <li><a href="courses.html">Courses</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <i class="fa-sharp fa-solid fa-bars fa-xs"></i>
+            <button id="open-menu-btn"><i class="fa-sharp fa-solid fa-bars fa-xs"></i></button>
+            <button id="open-menu-btn"><i class="fa-solid fa-xmark"></i></button>
         </div>
     </nav>
+
+
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, molestias expedita? Labore magni officia voluptate, incidunt praesentium quaerat molestias soluta sapiente voluptatibus vitae, ratione et, architecto culpa error consequuntur hic.</p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg" alt="header">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>categories</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos recusandae atque aperiam earum nesciunt nobis officia impedit! Enim sunt non eius iure nobis molestias sequi blanditiis cupiditate nam sit?</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-btc"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, qui.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-btc"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, qui.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-btc"></i></span>
+                    <h5>Finance</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, qui.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-btc"></i></span>
+                    <h5>Marketing</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, qui.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-btc"></i></span>
+                    <h5>Music</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, qui.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa-brands fa-btc"></i></span>
+                    <h5>Business</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, qui.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    
     
 </body>
 </html>
